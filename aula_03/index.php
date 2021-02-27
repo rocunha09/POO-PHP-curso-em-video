@@ -2,25 +2,20 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Hello, world!</title>
+        <title>Métodos especiais</title>
     </head>
     <body>
     <pre>
     <?php
         require_once 'Caneta.php';
 
-        $c1 = new Caneta();
-
-        $c1->modelo = "BIC cristal";
-        $c1->cor = "Azul";
-        //$c1->ponta = 0.5;
-        //$c1->carga = 50;
-        //$c1->tampada = true;
+        $c1 = new Caneta("BIC", "AZUL", 0.5);
+        $c2 = new Caneta("Mont Blanc", "preta", 0.5);
 
         print_r($c1);
-        $c1->rabiscar();
-        $c1->tampar();
-        $c1->destampar();
+        echo '<br>';
+        $c2->destampar();
+        print_r($c2);
     ?>
     </pre>
     </body>
