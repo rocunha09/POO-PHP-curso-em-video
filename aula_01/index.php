@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Hello, world!</title>
+        <title>Criando Classes</title>
     </head>
     <body>
     <?php
