@@ -16,7 +16,7 @@
                 $p[1] = new Pessoa();
                 $p[2] = new Aluno();
                 $p[3] = new Professor();
-                $p[4] = new Funcionario();
+                $p[4] = new Visitante();
 
                 $p[1]->setNome("Pedro");
                 $p[2]->setNome("Maria");
